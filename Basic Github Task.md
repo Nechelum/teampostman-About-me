@@ -1,0 +1,5 @@
+ My name is Chinechelum Cynthia Anaebonam. i'm a graduate of University      of Nigeria, Nsukka.
+   Currently undergoing a course on Software Testing with TESTIFY ACADEMY. 
+   I have good communication and interpersonal skills, strong     organizational and time management skills.
+   so far, my journey on The Switch to Software Testing has been quite challenging and educating. I've had hands-on practical and researches to do
+   I believe by the end of the course i'd have acquired enough skills to help me navigate through the Tech world.
