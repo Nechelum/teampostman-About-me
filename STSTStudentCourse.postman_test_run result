@@ -1,0 +1,398 @@
+{
+	"id": "746847cb-2016-4dc4-b988-aea2ba178b9a",
+	"name": "STSTStudentCourse",
+	"timestamp": "2023-11-23T22:13:20.884Z",
+	"collection_id": "31156432-48e483d7-08b5-4ccd-96b4-8c0a9e9e94e5",
+	"folder_id": 0,
+	"environment_id": "31156432-0db4e0c1-c812-4857-8b13-2e9cef67f96d",
+	"totalPass": 13,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-11-23T22:13:05.197Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "7814ac38-6a8f-42a6-afa0-336d9daf2e55",
+			"name": "Get All Todo Entries",
+			"url": "https://demo.fusio-project.org/index.php/",
+			"time": 3156,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"confirm response body has authorization": true,
+				"apiVersion is eql to (7.2.3.0)": true,
+				"title is eql to (Fusio)": true,
+				"paymentCurrency is eql to (EUR)": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm response body has authorization": {
+					"pass": 1,
+					"fail": 0
+				},
+				"apiVersion is eql to (7.2.3.0)": {
+					"pass": 1,
+					"fail": 0
+				},
+				"title is eql to (Fusio)": {
+					"pass": 1,
+					"fail": 0
+				},
+				"paymentCurrency is eql to (EUR)": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3156
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"confirm response body has authorization": true,
+					"apiVersion is eql to (7.2.3.0)": true,
+					"title is eql to (Fusio)": true,
+					"paymentCurrency is eql to (EUR)": true
+				}
+			]
+		},
+		{
+			"id": "146807b7-5986-4372-9a88-7009fda7019b",
+			"name": "New Request",
+			"url": "https://demo.fusio-project.org/index.php/",
+			"time": 320,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"title property is a string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"title property is a string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				320
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"title property is a string": true
+				}
+			]
+		},
+		{
+			"id": "a8bfd5b3-c6e8-454d-bde2-4a56e1b10232",
+			"name": "Get entry per ID - Valid ID",
+			"url": "https://demo.fusio-project.org/index.php",
+			"time": 276,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				276
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "cb5f732e-05b0-4d56-8177-6fa266ec22d5",
+			"name": "Get entry per ID - Invalid ID(params not using TODO ID)",
+			"url": "https://demo.fusio-project.org/",
+			"time": 304,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				304
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ad59be72-626c-4455-a33a-e8722210a6af",
+			"name": "Get All Books",
+			"url": "https://simple-books-api.glitch.me/books",
+			"time": 1376,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Search for a book name called Viscount Who Loved Me": true,
+				"The id number of a fiction book that is available with the name The Midnight Library is": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Search for a book name called Viscount Who Loved Me": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The id number of a fiction book that is available with the name The Midnight Library is": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1376
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Search for a book name called Viscount Who Loved Me": true,
+					"The id number of a fiction book that is available with the name The Midnight Library is": true
+				}
+			]
+		},
+		{
+			"id": "84fcf0b5-89ef-4039-8775-b214f4286310",
+			"name": "Get Books by ID",
+			"url": "https://simple-books-api.glitch.me/books",
+			"time": 250,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				250
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "cd6ecec9-bb13-426b-b687-2b1514d2b235",
+			"name": "Get Books by Type",
+			"url": "https://simple-books-api.glitch.me/books",
+			"time": 340,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				340
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "656a4f33-b56c-4a7d-aa77-ed44e4511fed",
+			"name": "Place a book order - using book ID Copy",
+			"url": "https://simple-books-api.glitch.me/orders",
+			"time": 635,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				635
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "c9e13ba4-6802-4e14-82f0-29b96be5b20a",
+			"name": "Get all orders",
+			"url": "https://simple-books-api.glitch.me/orders",
+			"time": 1600,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1600
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "97025768-0499-4e88-bdae-424db77c900c",
+			"name": "Get an order - using orderID",
+			"url": "https://simple-books-api.glitch.me/orders/JsscnuF4AdMS4lETH6pKV",
+			"time": 686,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				686
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "86e1a8f2-41e7-4c2a-835d-84a65af8f1e2",
+			"name": "Delete an order",
+			"url": "https://simple-books-api.glitch.me/orders/JsscnuF4AdMS4lETH6pKV",
+			"time": 1496,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1496
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "7e42bdea-f3dc-415c-8f96-da86b25b8a1b",
+			"name": "Register API Client",
+			"url": "https://simple-books-api.glitch.me/api-clients/",
+			"time": 755,
+			"responseCode": {
+				"code": 409,
+				"name": "Conflict"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				755
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "f9eb0a1d-a7ee-4eb3-bc9c-54c396f3cea9",
+			"name": "Get API Status",
+			"url": "https://simple-books-api.glitch.me/status",
+			"time": 284,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				284
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 11478,
+	"collection": {
+		"requests": [
+			{
+				"id": "7814ac38-6a8f-42a6-afa0-336d9daf2e55",
+				"method": "GET"
+			},
+			{
+				"id": "146807b7-5986-4372-9a88-7009fda7019b",
+				"method": "GET"
+			},
+			{
+				"id": "a8bfd5b3-c6e8-454d-bde2-4a56e1b10232",
+				"method": "GET"
+			},
+			{
+				"id": "cb5f732e-05b0-4d56-8177-6fa266ec22d5",
+				"method": "GET"
+			},
+			{
+				"id": "ad59be72-626c-4455-a33a-e8722210a6af",
+				"method": "GET"
+			},
+			{
+				"id": "84fcf0b5-89ef-4039-8775-b214f4286310",
+				"method": "GET"
+			},
+			{
+				"id": "cd6ecec9-bb13-426b-b687-2b1514d2b235",
+				"method": "GET"
+			},
+			{
+				"id": "656a4f33-b56c-4a7d-aa77-ed44e4511fed",
+				"method": "POST"
+			},
+			{
+				"id": "c9e13ba4-6802-4e14-82f0-29b96be5b20a",
+				"method": "GET"
+			},
+			{
+				"id": "97025768-0499-4e88-bdae-424db77c900c",
+				"method": "GET"
+			},
+			{
+				"id": "86e1a8f2-41e7-4c2a-835d-84a65af8f1e2",
+				"method": "DELETE"
+			},
+			{
+				"id": "7e42bdea-f3dc-415c-8f96-da86b25b8a1b",
+				"method": "POST"
+			},
+			{
+				"id": "f9eb0a1d-a7ee-4eb3-bc9c-54c396f3cea9",
+				"method": "GET"
+			}
+		]
+	}
+}
